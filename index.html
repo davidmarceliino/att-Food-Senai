@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="LoginPrincipal.css">
+    <link rel="shortcut icon" href="imgs/B2.png" type="image/x-icon">
+    <title>Login Principal</title>
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/more-sugar');
+
+        body {
+            font-family: 'More Sugar', sans-serif;
+            background-color: #bbbbbb;
+            margin: 0;
+            padding: 20px;
+            font-size: 20px;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        .option-button {
+            display: inline-block;
+            padding: 15px 30px;
+            margin: 10px;
+            background-color: #79e91e;
+            color: rgb(0, 0, 0);
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 18px;
+            text-decoration: none;
+        }
+
+        .option-button:hover {
+            background-color: #b7ff7e;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+
+            h2 {
+                font-size: 1.5em;
+            }
+
+            .option-button {
+                font-size: 16px;
+                padding: 10px 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>Bem-vindo ao Sistema</h2>
+        <p>Escolha uma opção para continuar:</p>
+        <a href="Usuarios.html" class="option-button">Cadastrar como Usuário</a><br>
+        <a href="Entregadores.html" class="option-button">Cadastrar como Entregador</a><br>
+        <a href="restaurante.html" class="option-button">Cadastrar como Restaurante</a><br>
+        <a href="login.html" class="option-button">Login</a><br>
+    </div>
+
+</body>
+
+</html>
